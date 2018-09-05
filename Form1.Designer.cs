@@ -54,7 +54,7 @@
             this.clock.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.clock.Location = new System.Drawing.Point(712, 9);
             this.clock.Name = "clock";
-            this.clock.Size = new System.Drawing.Size(102, 39);
+            this.clock.Size = new System.Drawing.Size(98, 38);
             this.clock.TabIndex = 5;
             this.clock.Text = "00:00";
             // 
@@ -64,7 +64,7 @@
             this.date.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.date.Location = new System.Drawing.Point(12, 9);
             this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(251, 39);
+            this.date.Size = new System.Drawing.Size(242, 38);
             this.date.TabIndex = 6;
             this.date.Text = "1 January 2018";
             // 
@@ -103,7 +103,7 @@
             this.Message.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Message.Location = new System.Drawing.Point(368, 257);
             this.Message.Name = "Message";
-            this.Message.Size = new System.Drawing.Size(0, 39);
+            this.Message.Size = new System.Drawing.Size(0, 38);
             this.Message.TabIndex = 10;
             // 
             // Status
@@ -112,7 +112,7 @@
             this.Status.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Status.Location = new System.Drawing.Point(12, 253);
             this.Status.Name = "Status";
-            this.Status.Size = new System.Drawing.Size(113, 39);
+            this.Status.Size = new System.Drawing.Size(110, 38);
             this.Status.TabIndex = 11;
             this.Status.Text = "Status";
             // 
@@ -121,6 +121,7 @@
             this.cityBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityBox.FormattingEnabled = true;
             this.cityBox.Items.AddRange(new object[] {
+            "Select City",
             "Los Angeles, USA",
             "New York, USA",
             "London, UK",
@@ -138,6 +139,7 @@
             this.cityBox.Name = "cityBox";
             this.cityBox.Size = new System.Drawing.Size(600, 46);
             this.cityBox.TabIndex = 12;
+            this.cityBox.Text = "Select City";
             this.cityBox.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // worldTime
@@ -146,7 +148,7 @@
             this.worldTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.worldTime.Location = new System.Drawing.Point(368, 310);
             this.worldTime.Name = "worldTime";
-            this.worldTime.Size = new System.Drawing.Size(0, 39);
+            this.worldTime.Size = new System.Drawing.Size(0, 38);
             this.worldTime.TabIndex = 14;
             // 
             // worldClock
@@ -155,7 +157,7 @@
             this.worldClock.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.worldClock.Location = new System.Drawing.Point(368, 184);
             this.worldClock.Name = "worldClock";
-            this.worldClock.Size = new System.Drawing.Size(0, 39);
+            this.worldClock.Size = new System.Drawing.Size(0, 38);
             this.worldClock.TabIndex = 15;
             // 
             // Form1

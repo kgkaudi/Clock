@@ -135,7 +135,12 @@ namespace Clock
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(cityBox.Text == "Los Angeles, USA")
+            if (cityBox.Text == "Select City")
+            {
+                worldClock.Text = "";
+            }
+
+            if (cityBox.Text == "Los Angeles, USA")
             {
                 worldClock.Text = DateTime.UtcNow.AddHours(-7).ToString();
             }
